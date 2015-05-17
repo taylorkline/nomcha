@@ -9,5 +9,8 @@ baseurl: "/nomcha" # the subpath of your site, e.g. /blog/
 twitter_username: jekyllrb
 github_username:  jekyll
 
+gems:
+     - jekyll-sitemap
+     
 # Build settings
 markdown: kramdown
