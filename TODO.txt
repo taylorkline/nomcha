@@ -1,0 +1,13 @@
+Set defaults author and layout.
+Choose a logical permalink style.
+Set up a layout
+
+404 page and about page
+http://jekyllbootstrap.com/lessons/jekyll-introduction.html#toc_9
+Pages guide, with clean URLs by folders with an index.html:
+http://jekyllrb.com/docs/pages/
+
+Display an index of my posts, perhaps sorted by Categories (first tastes and
+showdowns?)
+
+Decide on a markdown format
