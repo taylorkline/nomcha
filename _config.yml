@@ -17,7 +17,7 @@ gems:
 
 exclude: [TODO.txt, Gemfile*]
 permalink:
-   /tea/:categories/:title.html
+   /:categories/:title.html
      
 # Build settings
 markdown: redcarpet
