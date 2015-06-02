@@ -16,6 +16,8 @@ gems:
      - jekyll-sitemap
 
 exclude: [TODO.txt, Gemfile*]
+permalink:
+   /tea/:categories/:title.html
      
 # Build settings
-markdown: kramdown
+markdown: redcarpet

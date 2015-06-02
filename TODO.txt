@@ -11,3 +11,8 @@ Display an index of my posts, perhaps sorted by Categories (first tastes and
 showdowns?)
 
 Decide on a markdown format
+
+Get tags and categories to show up in metadata
+
+Create a template for posts_showdown that describes what a showdown is at the
+top of every page
