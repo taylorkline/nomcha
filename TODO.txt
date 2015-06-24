@@ -9,6 +9,8 @@ http://jekyllrb.com/docs/pages/
 
 Register an email address
 
+Add a very light footer with my email address.
+
 Theme footers to be italic and smaller.
 
 Add "written on" and "filed under" like:
@@ -16,6 +18,24 @@ http://biasedbit.com/ab-testing-jekyll-ga/
 
 Display an index of my posts, perhaps sorted by Categories (first tastes and
 showdowns?)
+or by date like:
+http://www.androiddesignpatterns.com/archives/
+http://tom.preston-werner.com/
+
+
+Really good designs:
+https://wenva.github.io/archive.html (really pretty toolbar)
+source: https://github.com/smallmuou/Jekyll-Pithy
+
+http://www.jacoporabolini.com/emerald/typography/ (really nice android-style
+action drawer)
+
+Blog with a hovering home bar:
+http://moinulhossain.me/rifyll/2014/12/30/a-demo-blog.html
+
+
+Check out how Minimal Mistakes does ads:
+https://mmistakes.github.io/minimal-mistakes/sample-link-post/
 
 Decide on a markdown format
 
