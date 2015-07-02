@@ -13,6 +13,8 @@ Add a very light footer with my email address.
 
 Theme footers to be italic and smaller.
 
+Figure out how media-query mixin works and remove if applicable
+
 Add "written on" and "filed under" like:
 http://biasedbit.com/ab-testing-jekyll-ga/
 

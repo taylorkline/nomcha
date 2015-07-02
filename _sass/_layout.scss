@@ -2,12 +2,18 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
+    height: 56px;
+}
 
-    // Positioning context for the mobile navigation icon
-    position: relative;
+.site-fixed-nav {
+    border-top: 5px solid $grey-color-dark;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: $background-color;
+    z-index: 9999;
 }
 
 .site-title {
@@ -40,50 +46,6 @@
             margin-left: 20px;
         }
     }
-
-    @include media-query($on-palm) {
-        position: absolute;
-        top: 9px;
-        right: 30px;
-        background-color: $background-color;
-        border: 1px solid $grey-color-light;
-        border-radius: 5px;
-        text-align: right;
-
-        .menu-icon {
-            display: block;
-            float: right;
-            width: 36px;
-            height: 26px;
-            line-height: 0;
-            padding-top: 10px;
-            text-align: center;
-
-            > svg {
-                width: 18px;
-                height: 15px;
-
-                path {
-                    fill: $grey-color-dark;
-                }
-            }
-        }
-
-        .trigger {
-            clear: both;
-            display: none;
-        }
-
-        &:hover .trigger {
-            display: block;
-            padding-bottom: 5px;
-        }
-
-        .page-link {
-            display: block;
-            padding: 5px 10px;
-        }
-    }
 }
 
 
@@ -98,13 +60,11 @@
 
 .footer-heading {
     font-size: 18px;
-    margin-bottom: $spacing-unit / 2;
+    color: $grey-color-dark
 }
 
-.contact-list,
-.social-media-list {
+.contact-list {
     list-style: none;
-    margin-left: 0;
 }
 
 .footer-col-wrapper {
@@ -115,24 +75,10 @@
 }
 
 .footer-col {
-    float: left;
+    float: center;
+    text-align: center;
     margin-bottom: $spacing-unit / 2;
     padding-left: $spacing-unit / 2;
-}
-
-.footer-col-1 {
-    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-2 {
-    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-3 {
-    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - (#{$spacing-unit} / 2));
 }
 
 @include media-query($on-laptop) {

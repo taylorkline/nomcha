@@ -1,6 +1,6 @@
 # Site settings
 title: nomcha
-#email: tasty@nomcha.com
+email: tasty@nomcha.com
 description: > # this means to ignore newlines until "baseurl:"
    a concise blog of tasty teas.
 
