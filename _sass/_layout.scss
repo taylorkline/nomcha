@@ -2,18 +2,9 @@
  * Site header
  */
 .site-header {
-    border-bottom: 1px solid $grey-color-light;
-    height: 56px;
-}
-
-.site-fixed-nav {
     border-top: 5px solid $grey-color-dark;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
-    background-color: $background-color;
-    z-index: 9999;
+    border-bottom: 1px solid $grey-color-light;
+    min-height: 56px;
 }
 
 .site-title {
