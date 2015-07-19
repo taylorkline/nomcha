@@ -18,7 +18,7 @@ $background-color: darken(white, 5%);
 $brand-color:      #009688;
 
 $header-color-background: #607D8B;
-$header-color-unselected: #E0E0E0;
+$header-color-unselected: darken(#E0E0E0, 15%);
 $header-color-selected: white;
 
 $grey-color:       #828282;
