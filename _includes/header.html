@@ -2,15 +2,27 @@
 
    <div class="wrapper">
 
-      <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+      <a class="site-title" href="{{ site.baseurl }}/">
+         {% if page.path == "index.html" %}
+         <span class="selected-heading">
+         {{ site.title }}
+         </span>
+         {% else %}
+         {{ site.title }}
+         {% endif %}
+      </a>
 
       <nav class="site-nav">
          <div class="trigger">
-            {% for page in site.pages %}
-            {% if page.title %}
-            <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+            <a class="page-link" href="{{ site.baseurl }}/about">
+            {% if page.path == "about.md" %}
+            <span class="selected-heading">
+            about
+            </span>
+            {% else %}
+            about
             {% endif %}
-            {% endfor %}
+            </a>
          </div>
       </nav>
 

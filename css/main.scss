@@ -15,7 +15,11 @@ $spacing-unit:     20px;
 
 $text-color:       #111;
 $background-color: darken(white, 7%);
-$brand-color:      brown;
+$brand-color:      orange;
+
+$header-color-background: #78909C;
+$header-color-unselected: #E0E0E0;
+$header-color-selected: #FAFAFA;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 30%);

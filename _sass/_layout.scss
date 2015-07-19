@@ -2,21 +2,26 @@
  * Site header
  */
 .site-header {
+    background-color: $header-color-background;
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 }
 
 .site-title {
+    color: $header-color-unselected;
     font-size: 26px;
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
 
-    &,
     &:visited {
-        color: $grey-color-dark;
+       color: $header-color-unselected;
+    }
+
+    &:hover {
+       color: $header-color-selected;
     }
 }
 
@@ -29,8 +34,12 @@
     }
 
     .page-link {
-        color: $text-color;
+        color: $header-color-unselected;
         line-height: $base-line-height;
+
+        &:hover {
+           color: $header-color-selected;
+        }
 
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
@@ -39,6 +48,9 @@
     }
 }
 
+.selected-heading {
+   color: white;
+}
 
 
 /**
