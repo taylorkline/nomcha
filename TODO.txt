@@ -20,6 +20,8 @@ Add floating navbar
 
 Get tags and categories to show up in metadata
 
+Add date tag programmatically
+
 EXAMPLES:
 Really good designs:
 Pithy

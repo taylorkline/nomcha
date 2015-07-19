@@ -93,11 +93,22 @@
 }
 
 .page-heading {
+    font-size: 22px;
+}
+
+.category-name {
+    font-size: 21px;
+    color: darken($header-color-unselected, 20%);
+}
+
+.post-year {
     font-size: 20px;
+    color: darken($header-color-unselected, 30%);
+    margin-left: 20px;
 }
 
 .post-list {
-    margin-left: 0;
+    margin-left: 40px;
     list-style: none;
 
     > li {
@@ -107,12 +118,12 @@
 
 .post-meta {
     font-size: $small-font-size;
+    font-family: "Courier New", Courier, monospace;
     color: $grey-color;
 }
 
 .post-link {
-    display: block;
-    font-size: 24px;
+    font-size: $small-font-size;
 }
 
 
