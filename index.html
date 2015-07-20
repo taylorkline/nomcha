@@ -12,7 +12,7 @@ layout: default
     {% for post in site.categories.first_tastes %}
       <li>
         <h3>
-          <span class ="post-meta">{{ post.date | date: "%b %d" }}</span> - <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <span class ="post-meta mono">{{ post.date | date: "%b %d" }}</span> - <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h3>
       </li>
     {% endfor %}
@@ -24,7 +24,7 @@ layout: default
      {% for post in site.categories.showdowns %}
      <li>
         <h3>
-           <span class ="post-meta">{{ post.date | date: "%b %d" }}</span> - <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+           <span class ="post-meta mono">{{ post.date | date: "%b %d" }}</span> - <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h3>
      </li>
      {% endfor %}

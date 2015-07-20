@@ -118,8 +118,11 @@
 
 .post-meta {
     font-size: $small-font-size;
-    font-family: "Courier New", Courier, monospace;
     color: $grey-color;
+}
+
+.mono {
+    font-family: "Courier New", Courier, monospace;
 }
 
 .post-link {
