@@ -3,6 +3,8 @@ Display an index of my posts, perhaps sorted by Categories (first tastes and
 showdowns?)
 or by date
 
+Validate: https://gsnedders.html5.org/outliner/
+
 404 page and about page
 http://jekyllbootstrap.com/lessons/jekyll-introduction.html#toc_9
 
