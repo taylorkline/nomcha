@@ -3,7 +3,7 @@ title: nomcha
 email: tasty@nomcha.com
 description: > # this means to ignore newlines in this block
    a concise blog of tasty teas.
-url: nomcha.com
+url: http://nomcha.com
 
 timezone: America/Chicago
 encoding: utf-8
