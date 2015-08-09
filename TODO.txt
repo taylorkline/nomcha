@@ -1,28 +1,9 @@
 PRESSING:
-Display an index of my posts, perhaps sorted by Categories (first tastes and
-showdowns?)
-or by date
-
-Validate: https://gsnedders.html5.org/outliner/
-
-404 page and about page
+404 page
 http://jekyllbootstrap.com/lessons/jekyll-introduction.html#toc_9
-
-Figure out how media-query mixin works and remove if applicable
-
-Set "First Tastes:" in front of title based on layout "posts_tastes" or
-something similar
-
-Use real favicon generator and some icon pack to make a favicon
 
 LATER:
 Register a domain and email address
-
-Add floating navbar
-
-Get tags and categories to show up in metadata
-
-Add date tag programmatically
 
 EXAMPLES:
 Really good designs:
