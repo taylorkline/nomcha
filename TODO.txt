@@ -1,7 +1,9 @@
 PRESSING:
-Register a domain and email address
+Set up Google adsense and analytics
 
-rss validation
+use CloudFlare for HTTPS
+
+Register nomcha on various social media sites
 
 LATER:
 404 page
