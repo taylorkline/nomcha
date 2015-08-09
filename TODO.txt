@@ -1,9 +1,11 @@
 PRESSING:
-404 page
-http://jekyllbootstrap.com/lessons/jekyll-introduction.html#toc_9
+Register a domain and email address
+
+rss validation
 
 LATER:
-Register a domain and email address
+404 page
+http://jekyllbootstrap.com/lessons/jekyll-introduction.html#toc_9
 
 EXAMPLES:
 Really good designs:
