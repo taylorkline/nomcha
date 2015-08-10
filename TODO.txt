@@ -1,9 +1,9 @@
 PRESSING:
 Set up Google adsense and analytics
 
-use CloudFlare for HTTPS
-
-Create IFTTT recipes for nomcha updates to Instagram and Twitter or Instagram to Twitter & Tumblr
+Add SVG icons for:
+Twitter https://gist.github.com/hail2u/2884613
+Instagram, Tumblr: http://codepen.io/ruandre/pen/howFi
 
 LATER:
 404 page
