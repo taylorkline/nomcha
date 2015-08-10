@@ -3,7 +3,7 @@ Set up Google adsense and analytics
 
 use CloudFlare for HTTPS
 
-Create IFTTT recipes for nomcha updates to Instagram and Twitter or Instagram to Twitter
+Create IFTTT recipes for nomcha updates to Instagram and Twitter or Instagram to Twitter & Tumblr
 
 LATER:
 404 page
