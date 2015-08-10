@@ -4,6 +4,7 @@ Set up Google adsense and analytics
 Add SVG icons for:
 Twitter https://gist.github.com/hail2u/2884613
 Instagram, Tumblr: http://codepen.io/ruandre/pen/howFi
+(see .icon in _base.scss)
 
 LATER:
 404 page
