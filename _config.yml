@@ -5,6 +5,11 @@ description: > # this means to ignore newlines in this block
    a concise blog of tasty teas.
 url: http://nomcha.com
 
+#removing any of this will omit the relevant HTML
+#to add more SVGs, see: http://codepen.io/ruandre/pen/howFi
+twitter_username: nomcha_blog
+instagram_username: nomcha_blog
+
 timezone: America/Chicago
 encoding: utf-8
 

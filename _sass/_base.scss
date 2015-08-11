@@ -182,3 +182,16 @@ pre {
         clear: both;
     }
 }
+
+/**
+ * Icons
+ */
+.icon {
+
+   > svg {
+      display: inline-block;
+      width: $base-font-size*2;
+      height: $base-font-size*2;
+      vertical-align: middle;
+   }
+}
