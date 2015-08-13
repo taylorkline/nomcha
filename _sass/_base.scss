@@ -187,14 +187,16 @@ pre {
  * Icons
  */
 .icon {
-
    > svg {
+      fill: $header-color-background;
+      color: $header-color-background;
       display: inline-block;
       width: $base-font-size*2;
       height: $base-font-size*2;
       vertical-align: middle;
     &:hover {
-        color: $header-color-background;
+       fill: black;
+       color: black;
     }
    }
 }
