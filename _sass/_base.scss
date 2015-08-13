@@ -194,4 +194,8 @@ pre {
       height: $base-font-size*2;
       vertical-align: middle;
    }
+   
+    &:hover {
+        color: $header-color-background;
+    }
 }
