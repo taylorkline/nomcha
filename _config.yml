@@ -3,7 +3,7 @@ title: nomcha
 email: tasty@nomcha.com
 description: > # this means to ignore newlines in this block
    a concise blog of tasty teas.
-url: http://nomcha.com
+url: https://nomcha.com
 
 #removing any of this will omit the relevant HTML
 #to add more SVGs, see: http://codepen.io/ruandre/pen/howFi
