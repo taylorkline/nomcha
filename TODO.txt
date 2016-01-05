@@ -1,11 +1,6 @@
 PRESSING:
 Support 2016 and all other years
 
-Add SVG icons for:
-Twitter https://gist.github.com/hail2u/2884613
-Instagram, Tumblr: http://codepen.io/ruandre/pen/howFi
-(see .icon in _base.scss)
-
 Update site name and description like: https://github.com/mmistakes/minimal-mistakes/blob/gh-pages/_includes/_head.html
 
 Other updates: http://mmistakes.github.io/minimal-mistakes/theme-setup/
