@@ -1,9 +1,50 @@
 PRESSING:
 Support 2016 and all other years
 
+Ask on SO:
+==================
+Querying post.next in a given category
+
+When iterating through posts in a given category, with {% for post in site.categories.CATEGORY %}, post.next returns the next post in reverse chronological order. Is there any way to query the next post in the specific category, rather than in general?
+==================
+
 Update site name and description like: https://github.com/mmistakes/minimal-mistakes/blob/gh-pages/_includes/_head.html
 
 Other updates: http://mmistakes.github.io/minimal-mistakes/theme-setup/
+
+Update to 3.0+ and read changelog https://jekyllrb.com/docs/history/
+
+Year stuff:
+==================
+<div class="well">
+{%for post in site.posts %}
+    {% unless post.next %}
+        <h2>{{ post.date | date: '%Y' }}</h2>
+        <ul>
+    {% else %}
+        {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+        {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+        {% if year != nyear %}
+            </ul>
+            <h1>{{ post.date | date: '%Y' }}</h1>
+            <ul>
+        {% endif %}
+    {% endunless %}
+    <li><span>{{ post.date | date: "%b %d" }}</span>» <a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
+
+
+For each post available (in REVERSE chronological order):
+if (there is NOT an older post):
+	create an h2 heading consisting of the year
+else (there is a next post):
+	get the year of this post and the next post
+	if (the dates differ)
+		create an h1 heading consisting of the year
+
+create the post title entry
+==================
 
 LATER:
 404 page
@@ -14,6 +55,7 @@ Really good designs:
 Pithy
 https://wenva.github.io/archive.html (really pretty toolbar)
 source: https://github.com/smallmuou/Jekyll-Pithy
+source 2: https://github.com/wenva/wenva.github.com
 
 Check out how Minimal Mistakes does ads:
 https://mmistakes.github.io/minimal-mistakes/sample-link-post/
@@ -27,3 +69,13 @@ action drawer)
 Nicely sorted indexed sites:
 http://www.androiddesignpatterns.com/archives/
 http://tom.preston-werner.com/
+
+SVG icons:
+Twitter https://gist.github.com/hail2u/2884613
+Instagram, Tumblr: http://codepen.io/ruandre/pen/howFi
+
+Liquid tags / variables / etc:
+https://github.com/Shopify/liquid/wiki/Liquid-for-Designers
+https://jekyllrb.com/docs/variables/
+https://jekyllrb.com/docs/templates/
+https://jekyllrb.com/docs/pagination/
