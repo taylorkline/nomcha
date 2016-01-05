@@ -1,5 +1,5 @@
 PRESSING:
-Set up Google adsense and analytics
+Support 2016 and all other years
 
 Add SVG icons for:
 Twitter https://gist.github.com/hail2u/2884613
