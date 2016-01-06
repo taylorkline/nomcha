@@ -6,6 +6,8 @@ Ask on SO:
 Querying post.next in a given category
 
 When iterating through posts in a given category, with {% for post in site.categories.CATEGORY %}, post.next returns the next post in reverse chronological order. Is there any way to query the next post in the specific category, rather than in general?
+
+https://stackoverflow.com/questions/34622036/querying-post-next-in-a-given-category
 ==================
 
 Update site name and description like: https://github.com/mmistakes/minimal-mistakes/blob/gh-pages/_includes/_head.html
@@ -79,3 +81,4 @@ https://github.com/Shopify/liquid/wiki/Liquid-for-Designers
 https://jekyllrb.com/docs/variables/
 https://jekyllrb.com/docs/templates/
 https://jekyllrb.com/docs/pagination/
+https://docs.shopify.com/themes/liquid-documentation/objects/for-loops (advanced Liquid)
