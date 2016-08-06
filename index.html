@@ -5,28 +5,27 @@ layout: default
 <div class="home">
 
   <h1 class="page-heading">Posts</h1>
-
-  <h2 class="category-name">First Tastes</h2>
-  <span class="post-year">2015</span>
-  <ul class="post-list">
-    {% for post in site.categories.first_tastes %}
-      <li>
-        <h3>
-          <span class ="post-meta mono">{{ post.date | date: "%b %d" }}</span> - <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h3>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <h2 class="category-name">Showdowns</h2>
-  <span class="post-year">2015</span>
-  <ul class="post-list">
-     {% for post in site.categories.showdowns %}
-     <li>
-        <h3>
-           <span class ="post-meta mono">{{ post.date | date: "%b %d" }}</span> - <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h3>
-     </li>
+  {% for category in site.categories %}
+  {% capture catname %}{{ category[0] }}{% endcapture %}
+  <h2 class="category-name">{{ catname | replace: '_', ' ' | capitalize }}</h2>
+  {% capture posts_year %}{{ site.categories[catname][0].date | date: '%Y' }}{% endcapture %}
+  <span class="post-year">{{ posts_year }}</span>
+     <ul class="post-list">
+     {% for post in site.categories[catname] %}
+     {% capture new_year %}{{ post.date | date: '%Y' }}{% endcapture %}
+     {% if new_year != posts_year %}
+     {% assign posts_year = new_year %}
+     </ul>
+     <span class="post-year">{{ posts_year }}</span>
+     <ul class="post-list">
+     {% endif %}
+        {% comment %}
+        Date format explained:
+        https://help.shopify.com/themes/liquid/filters/additional-filters#date
+        %b %e is abbreviated month & day
+        {% endcomment %}
+        <li><h3><span class="post-meta mono">{{ post.date | date: "%b %e" }}</span> - <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3></li>
      {% endfor %}
-  </ul>
+     </ul>
+  {% endfor %}
 </div>

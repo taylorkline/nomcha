@@ -10,15 +10,13 @@ url: https://nomcha.com
 twitter_username: nomcha_blog
 instagram_username: nomcha_blog
 
-timezone: America/Chicago
+timezone: America/Los_Angeles
 encoding: utf-8
 
 gems:
      - jekyll-sitemap
+     - jekyll-feed
 
 exclude: [TODO.txt, Gemfile*]
 permalink:
    /:categories/:title/
-     
-# Build settings
-markdown: redcarpet
