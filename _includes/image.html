@@ -1,8 +1,8 @@
 <div class="image-wrapper" >
    {% if include.imgurl %}
-      <a href="{{ site.url }}/{{ include.imgurl }}" title="{{ include.title }} Full Size" target="_blank">
+   <a href="{{ include.imgurl | prepend: '/' | prepend: site.baseurl | prepend: site.url }}" title="{{ include.title }} Full Size" target="_blank">
    {% endif %}
-   <img src="{{ site.url }}/{{ include.img }}" alt="{{ include.title }}"/>
+   <img src="{{ include.img | prepend: '/' | prepend: site.baseurl | prepend: site.url }}" alt="{{ include.title }}"/>
    {% if include.imgurl %}
       </a>
    {% endif %}
